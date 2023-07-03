@@ -18,6 +18,16 @@ public class Main {
 
         printDoubled(items);
 
+        System.out.println("************************");
+
+        FootballPlayer joe = new FootballPlayer("Joe");
+        BaseBalPlayer pat = new BaseBalPlayer("Pat");
+        SoccerPlayer beckham = new SoccerPlayer("Backham");
+
+        Team liverPool = new Team("Liverpool");
+        liverPool.addPlayer(joe);
+        liverPool.addPlayer(pat);
+        liverPool.addPlayer(beckham);
 
 
     }
