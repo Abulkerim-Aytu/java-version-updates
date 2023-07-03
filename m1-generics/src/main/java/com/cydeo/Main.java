@@ -1,5 +1,6 @@
 package com.cydeo;
 
+import javax.swing.*;
 import java.util.ArrayList;
 
 public class Main {
@@ -24,9 +25,10 @@ public class Main {
         BaseBalPlayer pat = new BaseBalPlayer("Pat");
         SoccerPlayer beckham = new SoccerPlayer("Backham");
 
-        Team liverPool = new Team("Liverpool");
-        liverPool.addPlayer(joe);
-        liverPool.addPlayer(pat);
+        Team<SoccerPlayer> liverPool = new Team("Liverpool");
+
+//        liverPool.addPlayer(joe);
+//        liverPool.addPlayer(pat);
         liverPool.addPlayer(beckham);
 
 
