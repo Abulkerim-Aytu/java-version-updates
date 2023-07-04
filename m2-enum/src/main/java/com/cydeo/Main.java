@@ -33,6 +33,11 @@ public class Main {
         System.out.println("Operation Tesk");
         calculate(5,7,Operation.PLUS);
 
+        System.out.println("How top retrieve the constent value");
+        System.out.println(Operation.PLUS.getValue());
+        System.out.println(Operation.PLUS.getValue());
+        System.out.println(Operation.MINUS.ordinal()); // ordinal: return the index
+
     }
 
     private static void calculate(double x, double y, Operation operation){
