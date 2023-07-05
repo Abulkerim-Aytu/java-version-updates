@@ -9,6 +9,11 @@ public class ArraySorting {
 
         as.sort(qs);
         as.sort(bs);
+
+        Sorting quickSort = () -> System.out.println("Quick Sorting");
+        as.sort(quickSort);
+
+        as.sort( () -> System.out.println("Quick Sorting"));
     }
     private void sort(Sorting sorting){
         sorting.sort();
