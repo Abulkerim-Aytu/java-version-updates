@@ -1,4 +1,6 @@
-package com.cydeo;
+package com.cydeo.task;
+
+import com.cydeo.Color;
 
 import java.util.ArrayList;
 import java.util.List;
