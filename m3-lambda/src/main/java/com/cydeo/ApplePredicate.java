@@ -1,6 +1,6 @@
 package com.cydeo;
 
-@FunctionalInterface
+@java.lang.FunctionalInterface
 public interface ApplePredicate {
     boolean test (Apple apple);
 }
